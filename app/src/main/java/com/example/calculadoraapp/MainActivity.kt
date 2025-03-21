@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         txtResultado = findViewById(R.id.txtResultado)
 
         val botonesNumeros = listOf(
-            R.id.btn0, R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4,
+            R.id.btn_0, R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4,
             R.id.btn5, R.id.btn6, R.id.btn7, R.id.btn8, R.id.btn9
         )
 
@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
             findViewById<Button>(id).setOnClickListener { botonPresionado((it as Button).text.toString()) }
         }
 
-        findViewById<Button>(R.id.btnSum).setOnClickListener { operadorPresionado("+") }
-        findViewById<Button>(R.id.btnRes).setOnClickListener { operadorPresionado("-") }
-        findViewById<Button>(R.id.btnMul).setOnClickListener { operadorPresionado("*") }
-        findViewById<Button>(R.id.btnDiv).setOnClickListener { operadorPresionado("/") }
+        findViewById<Button>(R.id.btn_sum).setOnClickListener { operadorPresionado("+") }
+        findViewById<Button>(R.id.btn_res).setOnClickListener { operadorPresionado("-") }
+        findViewById<Button>(R.id.btn_mul).setOnClickListener { operadorPresionado("*") }
+        findViewById<Button>(R.id.btn_div).setOnClickListener { operadorPresionado("/") }
 
-        findViewById<Button>(R.id.btnIgual).setOnClickListener { calcularResultado() }
-        findViewById<Button>(R.id.btnC).setOnClickListener { limpiar() }
+        findViewById<Button>(R.id.btn_igual).setOnClickListener { calcularResultado() }
+        findViewById<Button>(R.id.btn_c).setOnClickListener { limpiar() }
     }
 
     private fun botonPresionado(numero: String) {

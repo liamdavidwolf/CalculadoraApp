@@ -10,24 +10,30 @@
     <style name="BotonCalculadora">
         <item name="android:backgroundTint">#FF9800</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:cornerRadius">8dp</item>
+
+    </style>
+
+    <style name="BotonCalc">
+        <item name="android:backgroundTint">#FF9800</item>
+        <item name="android:textColor">#FFFFFF</item>
+
     </style>
 
     <style name="BotonBorrado">
         <item name="android:backgroundTint">#F44336</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:cornerRadius">8dp</item>
+
     </style>
 
     <style name="BotonIgual">
         <item name="android:backgroundTint">#2196F3</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:cornerRadius">8dp</item>
+
     </style>
 
     <style name="BotonOperacion">
         <item name="android:backgroundTint">#2196F3</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:cornerRadius">8dp</item>
+
     </style>
 </resources>
