@@ -1,9 +1,33 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="Base.Theme.CalculadoraApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">#1E1E1E</item>
     </style>
 
     <style name="Theme.CalculadoraApp" parent="Base.Theme.CalculadoraApp" />
+
+    <style name="BotonCalculadora">
+        <item name="android:backgroundTint">#FF9800</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:cornerRadius">8dp</item>
+    </style>
+
+    <style name="BotonBorrado">
+        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:cornerRadius">8dp</item>
+    </style>
+
+    <style name="BotonIgual">
+        <item name="android:backgroundTint">#2196F3</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:cornerRadius">8dp</item>
+    </style>
+
+    <style name="BotonOperacion">
+        <item name="android:backgroundTint">#2196F3</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:cornerRadius">8dp</item>
+    </style>
 </resources>
